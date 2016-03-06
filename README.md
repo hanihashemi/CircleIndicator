@@ -4,19 +4,6 @@ A lightweight infinite viewpager indicator
 
 ![InfiniteViewPagerWithIndicator](/screenshot.gif)
 
-Gradle
-------------
-
-
-
-
-```groovy
-dependencies {
-    compile 'me.relex:circleindicator:1.1.8@aar'
-}
-```
-
-
 Usage
 --------
 ```xml
@@ -47,8 +34,24 @@ Wrap your existing PagerAdapter with the `InfinitePagerAdapter`:
 * `app:ci_animator`
 * `app:ci_animator_reverse`
 
+# Installing
 
+Step 1:Add the JitPack repository to your build file
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
 
+Step 2:Add the dependency
+```gradle
+dependencies {
+	compile 'com.github.hanihashemi:InfiniteViewPagerWithIndicator:1.1.8'
+}
+```
 License
 --------
 ```
