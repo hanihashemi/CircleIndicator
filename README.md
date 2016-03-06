@@ -1,10 +1,8 @@
-CircleIndicator
+Infinite ViewPager With Indicator
 ===============
-A lightweight viewpager indicator like in nexus 5 launcher 
+A lightweight infinite viewpager indicator
 
-[ ![Download](https://api.bintray.com/packages/ongakuer/maven/CircleIndicator/images/download.svg) ](https://bintray.com/ongakuer/maven/CircleIndicator/_latestVersion)
-
-![CircleIndicator](/screenshot.gif)
+![InfiniteViewPagerWithIndicator](/screenshot.gif)
 
 Gradle
 ------------
@@ -22,12 +20,24 @@ dependencies {
 Usage
 --------
 ```xml
-	<me.relex.circleindicator.CircleIndicator
+    <com.antonyt.infiniteviewpager.InfiniteViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="48dp"/>
+        android:layout_height="match_parent" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+```
+Wrap your existing PagerAdapter with the `InfinitePagerAdapter`:
+
+```Java
+	PagerAdapter wrappedAdapter = new InfinitePagerAdapter(adapter);
+	viewPager.setAdapter(wrappedAdapter);
 ```
 
-#####Properties:
+#####Properties For `CircleIndicator`:
 
 * `app:ci_width`
 * `app:ci_height`
