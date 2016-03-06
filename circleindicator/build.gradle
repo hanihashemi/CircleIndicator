@@ -23,7 +23,5 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.2.0'
+    compile 'com.github.antonyt:InfiniteViewPager:v1.0.0'
 }
-
-//apply from: "upload-jcenter.gradle"
-//apply from: "upload-maven.gradle"

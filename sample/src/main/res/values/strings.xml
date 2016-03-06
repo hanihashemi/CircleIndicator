@@ -8,6 +8,7 @@
     <string name="demo_custom_animation">Custom Animation</string>
     <string name="demo_change_color">Change Color</string>
     <string name="demo_dynamic_adapter">Dynamic Adapter</string>
+    <string name="demo_infinite_adapter">Infinite Pager/Adapter</string>
 
     <string name="add">Add</string>
     <string name="remove">Remove</string>
