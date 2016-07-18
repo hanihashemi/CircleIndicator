@@ -25,5 +25,4 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:24.0.0'
-    compile 'com.github.antonyt:InfiniteViewPager:v1.0.0'
 }
