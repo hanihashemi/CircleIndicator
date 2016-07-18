@@ -5,12 +5,12 @@ group='com.github.hanihashemi'
 version = "1.1.8"
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 24
     buildToolsVersion '23.0.3'
 
     defaultConfig {
         minSdkVersion 11
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 118
         versionName version
     }
@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:support-v4:24.0.0'
     compile 'com.github.antonyt:InfiniteViewPager:v1.0.0'
 }
