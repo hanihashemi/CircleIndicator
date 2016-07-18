@@ -14,8 +14,6 @@ import android.view.View;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import com.antonyt.infiniteviewpager.InfinitePagerAdapter;
-
 import static android.support.v4.view.ViewPager.OnPageChangeListener;
 
 public class CircleIndicator extends LinearLayout {
